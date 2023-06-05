@@ -2,4 +2,6 @@ from django.shortcuts import render, HttpResponse
 
 
 def index(request):
-    return HttpResponse("TaManKe")
+    # return HttpResponse("tamanke")
+    return render(request, 'index.html')
+    
